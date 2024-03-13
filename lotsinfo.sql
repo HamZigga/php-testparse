@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Мар 13 2024 г., 17:14
+-- Время создания: Мар 13 2024 г., 19:36
 -- Версия сервера: 8.0.30
 -- Версия PHP: 8.1.9
 
@@ -79,13 +79,13 @@ ALTER TABLE `lots`
 -- AUTO_INCREMENT для таблицы `bankrupts`
 --
 ALTER TABLE `bankrupts`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=109;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- AUTO_INCREMENT для таблицы `lots`
 --
 ALTER TABLE `lots`
-  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=76;
+  MODIFY `id` bigint UNSIGNED NOT NULL AUTO_INCREMENT;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
